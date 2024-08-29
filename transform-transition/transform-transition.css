@@ -57,8 +57,19 @@ img{
     margin: 2px;
 }
 
+.x{
+   transition: all 2s ease-out;
+   /* transition-delay: 1s; */
+   transition-timing-function: cubic-bezier(0.54,-0.88, 0.77, 2.8);
+}
+
 .x:active{
-    transform: translateX(50px);
+    transform: translateX(250px);
+    background-color: yellow;
+}
+
+.y{
+    transition: all 0.5s ease-in-out;
 }
 
 .y:active{
@@ -66,6 +77,11 @@ img{
     transform: translateY(50px);
 }
 
+.xy{
+    transition: all 1s;
+}
+
 .xy:active{
     transform: translate(50px, 50px);
+    width: 200px;
 }
