@@ -49,3 +49,23 @@
 img{
     transform: skew(20deg, 20deg);
 }
+
+.box{
+    background-color: crimson;
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+}
+
+.x:active{
+    transform: translateX(50px);
+}
+
+.y:active{
+    background-color: orange;
+    transform: translateY(50px);
+}
+
+.xy:active{
+    transform: translate(50px, 50px);
+}
