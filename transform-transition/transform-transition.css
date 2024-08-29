@@ -1,0 +1,30 @@
+.yazi{
+    width: 50vw;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.yazi1{
+    background-color: darkcyan;
+}
+
+.yazi2{
+    background-color: cornflowerblue;
+}
+
+.yazi3{
+    background-color: fuchsia;
+}
+
+.yazi4{
+    background-color: seagreen;
+}
+
+.yazi5{
+    background-color: violet;
+}
+
+.yazi6{
+    background-color: orange;
+}
