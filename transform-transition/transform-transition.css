@@ -45,3 +45,7 @@
     transform: scale(1.6) rotate(-45deg);
     background-color: red;
 }
+
+img{
+    transform: skew(20deg, 20deg);
+}
