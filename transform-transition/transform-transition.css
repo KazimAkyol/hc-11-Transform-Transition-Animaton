@@ -7,24 +7,41 @@
 
 .yazi1{
     background-color: darkcyan;
+    transform: rotateX(180deg);
 }
 
 .yazi2{
     background-color: cornflowerblue;
 }
 
+.yazi2:active{
+    transform: rotateY(180deg);
+}
+
 .yazi3{
     background-color: fuchsia;
 }
 
+.yazi3:active{
+    transform: rotate(-45deg);
+    transform-origin: 25%;
+}
+
 .yazi4{
     background-color: seagreen;
+    transform: scaleX(1.3);
 }
 
 .yazi5{
     background-color: violet;
+    transform: scaleY(1.5);
 }
 
 .yazi6{
     background-color: orange;
+}
+
+.yazi6:active{
+    transform: scale(1.6) rotate(-45deg);
+    background-color: red;
 }
