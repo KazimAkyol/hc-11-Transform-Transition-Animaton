@@ -41,4 +41,42 @@ body{
         transform: translate(-2000px);
     }
 
+h1{
+    text-align: center;
+}
+
+}
+
+@keyframes hop up{
+
+    0%{
+        transform: translateY(-2px)
+    }
+
+    50%{
+        transform: translateY(0px)
+    }
+
+    100%{
+        transform: translateY(2px)
+    }
+}
+
+@keyframes renklensin{
+
+    0%{
+        color: fuchsia;
+        /* transform: translateX(-2px); */
+        text-align: left;
+    }
+
+    50%{
+        color: orange;
+        text-align: center;
+    }
+
+    100%{
+        color: yellow;
+        text-align: right;
+    }
 }
